@@ -1,0 +1,11 @@
+[package]
+name = "mini-rs"
+version = "0.1.0"
+authors = ["Johan Burell <johan.burell@gmail.com>"]
+
+[profile.dev]
+panic = 'abort'
+lto = true
+
+[dependencies]
+# libc = "0.2"
